@@ -246,40 +246,6 @@ header .redes .fas {
     color: #ec135b;
 }
 
-/* .home img.train {
-    z-index: 1;
-    position: absolute;
-    bottom: 0;
-}
-
-.home .footer-home {
-    background: #a6a7a7;
-}
-
-.home .footer-home a {
-    padding: .5rem .8rem .5rem 5rem;
-    background: #fb4f42;
-    border-radius: 30px;
-    color: #fff;
-}
-
-.home .footer-home p {
-    color: #fff;
-    font-size: 1rem;
-}
-
-.home .footer-home .fa-chevron-right {
-    color: #fb4f42;
-}
-
-.home .footer-home a i {
-    background: #d8d8d8;
-    padding: .3rem;
-    border-radius: 50%;
-    color: #fb4f42;
-}
-*/
-
 .logros {
     background: #909090;
 }
@@ -370,22 +336,6 @@ img.icon {
     height: auto;
 }
 
-/* .beneficios .item:nth-child(1) p:nth-of-type(1) {
-    font-size: .8rem;
-    color: #686666;
-}
-
-.beneficios .item:nth-child(1) p:nth-of-type(2) {
-    font-size: 1rem;
-    color: #000;
-    font-weight: bold;
-}
-
-.beneficios .item p:nth-of-type(2) {
-    font-size: .8rem;
-    color: #686666;
-} */
-
 .beneficios .item p {
     color: #686666;
     font-size: .85rem;
@@ -471,6 +421,10 @@ img.icon {
     left: -14px;
 }
 
+#carouselPagos img {
+    width: 20%;
+}
+
 /* Summa Elite */
 
 .summa-elite {
@@ -506,7 +460,7 @@ img.icon {
 
 .summa-elite h3,
 .invertir h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #ec135b;
 }
 
@@ -520,6 +474,10 @@ img.icon {
     color: #696767;
     background: linear-gradient(to bottom right, #fff, #edeeee, #b4b7ba);
     overflow-x: hidden;
+}
+
+.invertir h4 {
+    color: #a6a7a7;
 }
 
 .invertir .item::after {
@@ -1055,6 +1013,10 @@ footer .redes div {
         padding: .5rem 1rem;
         text-align: center;
         font-size: .8rem;
+    }
+
+    #carouselPagos img {
+        width: 45%;
     }
 
 }
