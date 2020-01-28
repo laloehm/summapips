@@ -253,12 +253,13 @@ header .redes .fas {
 /* Activos */
 .activos h4 {
     color: #a6a7a7;
+    font-size: 1.3rem;
 }
 
 .activos h2 {
     color: #ec135b;
     font-size: 3rem;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .activos h3 {
