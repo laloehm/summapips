@@ -110,17 +110,49 @@
             </div>
             <!-- TradingView Widget END -->
         </div>
-        <div class="row position-relative">
-            <img src="images/Home/Bg-Home.png" class="img-fluid d-none d-md-block" alt="">
-            <div class="col-md-7 col-lg-6 ml-auto">
-                <h3>Estás a un clic de</h3>
-                <h2>comenzar a </h2>
-                <h1 class="ml-5">INVERTIR</h1>
-                <div class="d-flex px-5">
-                    <p>con</p>
-                    <img src="images/Logo.png" class="logo ml-4" alt="">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row position-relative">
+                        <img src="images/Home/Bg-Home.png" class="img-fluid d-none d-md-block" alt="">
+                        <div class="col-md-7 col-lg-6 ml-auto">
+                            <h3>Estás a un clic de</h3>
+                            <h2>comenzar a </h2>
+                            <h1 class="ml-5">INVERTIR</h1>
+                            <div class="d-flex px-5">
+                                <p>con</p>
+                                <img src="images/Logo.png" class="logo ml-4" alt="">
+                            </div>
+                            <a href="#" class="btn-crear my-3 appear">Crear cuenta <i class="fas fa-check ml-4"></i></i></a>
+                        </div>
+                    </div>
                 </div>
-                <a href="#" class="btn-crear my-3 appear">Crear cuenta <i class="fas fa-check ml-4"></i></i></a>
+                <div class="carousel-item slide-2">
+                    <div class="row position-relative">
+                        <img src="images/Home/Bg-2.jpg" class="img-fluid d-none d-md-block" alt="">
+                        <div class="col-md-7 col-lg-6 ml-auto">
+                            <h1 class="ml-4">BROKER</h1>
+                            <h2>internacional </h2>
+                            <h3 class="ml-5">con servicio 24/7 online</h3>
+                            <a href="#" class="btn-crear my-3 appear">Crear cuenta <i class="fas fa-check ml-4"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item slide-3">
+                    <div class="row position-relative">
+                        <img src="images/Home/Bg-3.jpg" class="img-fluid d-none d-md-block" alt="">
+                        <div class="col-md-7 col-lg-6">
+                            <h4 class="ml-5">Inversiones</h4>
+                            <h3>seguras y </h3>
+                            <h2 class="">CLARAS</h2>
+                            <div class="d-flex px-5">
+                                <p>con</p>
+                                <img src="images/Logo.png" class="logo ml-4" alt="">
+                            </div>
+                            <a href="#" class="btn-crear my-3 appear">Crear cuenta <i class="fas fa-check ml-4"></i></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -139,7 +171,9 @@
                     <p class="text-center font-weight-bold mt-2">Una cuenta</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="images/Activos/2.png" class="img-fluid d-block mx-auto" width="140" alt="">
+                    <a href="" data-toggle="modal" data-target="#exampleModalCenter">
+                        <img src="images/Activos/2.png" class="img-fluid d-block mx-auto" width="140" alt="">
+                    </a>
                     <p class="text-center font-weight-bold mt-2">Servicios</p>
                 </div>
                 <div class="col-md-3">
@@ -153,7 +187,7 @@
     </section>
 
     <!-- Activos -->
-    <section class="activos mt-md-5 position-relative d-flex flex-column align-items-center" id="activos">
+    <section class="activos my-5 position-relative d-flex flex-column align-items-center" id="activos">
         <div class="container">
             <!-- <div class="beneficios pb-5" id="beneficios">
                 <div class="what py-5">
@@ -372,7 +406,7 @@
                     <img src="images/Testimoniales/4.png" class="img-fluid" alt="">
                     <p class="mt-2 mb-0 mt-3">Matias Méndez</p>
                     <p>Abogado </p>
-                    <p class="text-center">Se siente muy bien comprar todo lo que a uno le gusta con sus ganancias</p>
+                    <p class="text-center px-3">Se siente muy bien comprar todo lo que a uno le gusta con sus ganancias</p>
                     <div class="row border-top">
                         <div class="col-6 operaciones border-right pt-3">
                             <p class="">Operaciones</p>
@@ -455,38 +489,46 @@
     <!-- Suma Plus -->
     <section class="py-5 suma-plus">
         <div class="container">
-            <h2>SUMMA</h2>
-            <h4>PLUS</h4>
-            <div class="row">
+            <h2 class="m-0 pl-2">SUMMA</h2>
+            <h4 class="pl-5">PLUS</h4>
+            <div class="row my-5 content">
                 <div class="col-md-3">
-                    <div class="promociones">
+                    <div class="promociones px-4 py-5 mb-4 bg-white">
                         <h5>PROMOCIONES</h5>
-                        <p>Realiza dos operaciones y te protegemos 3</p>
-                        <a href="">MÁS INFO</a>
+                        <p class="my-4">Realiza dos operaciones y te protegemos 3</p>
+                        <a href="">___ MÁS INFO</a>
                     </div>
-                    <div class="bonos mt-3">
-                        <h5>BONOS</h5>
-                        <p>Deposita $100.00 USD y te abonamos el 20%</p>
+                    <div class="bonos px-4 pt-4 pb-3">
+                        <h5 class="text-white">BONOS</h5>
+                        <p class="text-white my-5">Deposita $100.00 USD y te abonamos el 20%</p>
+                        <a href="" class="text-white mt-4 d-block text-right">___ MÁS INFO</a>
                     </div>
                 </div>
-                <div class="col-md-3 noticias">
+                <div class="col-md-3 noticias px-4 bg-white pt-5 pb-1">
                     <h5>TOP NES</h5>
                     <div class="noticia mt-4">
                         <p>EL NUEVO FORMATO DE NETFLIX DISPARA LAS ACCIONES EN TECNOLOGÍA</p>
+                        <p class="fecha"> <i class="far fa-clock mr-2"></i>3 Dias</p>
                     </div>
-                    <div class="noticia">
+                    <div class="noticia mt-3">
                         <p>EL IPHONE 11XR ESTA ENTRANDO EN RECORD</p>
+                        <p class="fecha"> <i class="far fa-clock mr-2"></i>3 Dias</p>
                     </div>
-                    <div class="noticia">
+                    <div class="noticia mt-3">
                         <p>KAWASAKI RESURGE PARA COTIZAR EL MERCADO DEL MOTOCICLISMO</p>
+                        <p class="fecha"> <i class="far fa-clock mr-2"></i>3 Dias</p>
                     </div>
                 </div>
-                <div class="col-lg-6 herramientas">
-                    <h4>HERRAMIENTAS DE INVERSIÓN</h4>
-                    <a href="">CALENDARIO ECONÓMICO</a>
-                    <a href="" class="my-3">DATOS DEL MERCADO</a>
-                    <a href="">TIPOS CRUZADOS DEL MERCADO DE DIVISAS</a>
-                    <a href="" class="mt-3">ACCIONES DE ALTA DEMANDA</a>
+                <div class="col-lg-6 herramientas pl-4 pr-0">
+                    <div class="bg-white h-100 px-4 py-5">
+                        <h4>HERRAMIENTAS DE INVERSIÓN</h4>
+                        <div class="herramienta mt-4 pt-4">
+                            <a href="" class="mt-5">CALENDARIO ECONÓMICO</a>
+                            <a href="" class="my-3">DATOS DEL MERCADO</a>
+                            <a href="">TIPOS CRUZADOS DEL MERCADO DE DIVISAS</a>
+                            <a href="" class="mt-3">ACCIONES DE ALTA DEMANDA</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -571,6 +613,51 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal Activos -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row px-xl-5 justify-content-around mt-5">
+                        <div class="col-md-3 item">
+                            <img src="images/Activos/Dispositivos.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
+                            <p class="mb-0">Tenemos las herramientas de trading</p>
+                            <p class="font-weight-bold"> más avanzadas y potentes.</p>
+                        </div>
+                        <div class="col-md-3 item my-4 my-md-0">
+                            <img src="images/Activos/Soporte.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
+                            <p class="mb-0 font-weight-bold">Soporte las 24 horas.</p>
+                            <p> del día con ejecutivos en tu idioma.</p>
+                        </div>
+                        <div class="col-md-3 item p-0">
+                            <img src="images/Activos/Seguridad.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
+                            <p class="mb-0 font-weight-bold">Alto estándar de seguridad </p>
+                            <p> con tus movimientos y datos personales.</p>
+                        </div>
+                    </div>
+                    <div class="row px-xl-5 justify-content-around my-5">
+                        <div class="col-md-3 px-xl-5 item">
+                            <img src="images/Activos/Dinero.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
+                            <p class="mb-0">Te ofrecemos diferentes</p>
+                            <p class="font-weight-bold"> sistemas de pago.</p>
+                        </div>
+                        <div class="col-md-3 px-xl-5 item my-4 my-md-0">
+                            <img src="images/Activos/Dinero.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
+                            <p class="mb-0">Tú decides cuando</p>
+                            <p class="font-weight-bold"> retirar tu dinero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

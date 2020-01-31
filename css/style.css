@@ -203,7 +203,7 @@ header .redes .fas {
 
 .home h2 {
     font-size: 4rem;
-    line-height: 30px;
+    line-height: 40px;
     margin-bottom: .75rem;
 }
 
@@ -214,6 +214,7 @@ header .redes .fas {
 
 .home h3 {
     color: #000;
+    font-size: 2.2rem;
 }
 
 .home .col-lg-6 {
@@ -250,6 +251,31 @@ header .redes .fas {
     background: #909090;
 }
 
+.home .slide-2 h3 {
+    font-size: 2.2rem;
+}
+
+.home .slide-3 .col-lg-6 {
+    left: 5%;
+}
+
+.home .slide-3 .col-lg-6 h2 {
+    font-size: 6rem;
+    line-height: .9;
+}
+
+.home .slide-3 .col-lg-6 h3 {
+    font-size: 4rem;
+    color: #ec0f69;
+    line-height: 1;
+}
+
+.home .slide-3 .col-lg-6 h4 {
+    font-size: 2.3rem;
+    margin: 0;
+    line-height: 30px;
+}
+
 /* Activos */
 .activos h4 {
     color: #a6a7a7;
@@ -258,7 +284,8 @@ header .redes .fas {
 
 .activos h2,
 .beneficios h2,
-.testimoniales h2 {
+.testimoniales h2,
+.suma-plus h2 {
     color: #ec135b;
     font-size: 3rem;
     line-height: 50px;
@@ -327,7 +354,8 @@ header .redes .fas {
     font-size: 1.8rem;
 }
 
-.what h4 {
+.what h4,
+.suma-plus h4 {
     color: #ec135b;
 }
 
@@ -575,6 +603,18 @@ img.icon {
 
 /* Summa Plus */
 
+.suma-plus {
+    background: linear-gradient(to bottom right, #b4b7ba, #fff, #edeeee);
+}
+
+.suma-plus h4 {
+    font-size: 2.2rem;
+}
+
+.suma-plus .content {
+    height: 500px;
+}
+
 .suma-plus .herramientas a {
     display: block;
     border: 1px solid #3c3d3c;
@@ -584,9 +624,9 @@ img.icon {
 }
 
 .suma-plus .herramientas a:hover {
-    border: none;
-    color: #fff;
     background: #f85048;
+    border: 1px solid #f85048;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -597,6 +637,26 @@ img.icon {
 .suma-plus .noticias p {
     color: #62636b;
 }
+
+.suma-plus .noticia .fecha {
+    color: #cdcdd0;
+}
+
+.suma-plus .bonos {
+    background: #f85048;
+    height: 250px;
+}
+
+.suma-plus .promociones {
+    height: 225px;
+}
+
+.promociones a {
+    color: #f85048;
+    text-align: right;
+    display: block;
+}
+
 
 /* NEWS */
 
@@ -1278,7 +1338,7 @@ footer .redes div {
     }
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     .home {
         height: auto;
         background-image: url(../images/Home/Bg-Responsive.png);
@@ -1292,4 +1352,4 @@ footer .redes div {
     .home .row {
         margin-bottom: 3rem;
     }
-}
+} */
