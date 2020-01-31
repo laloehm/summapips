@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <title>Summa</title>
 </head>
@@ -166,18 +167,20 @@
                 <h3 class="text-uppercase pl-5"><span>COMO TU BROKER?</span></h3>
             </div>
             <div class="row justify-content-center py-5">
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <img src="images/Activos/1.png" class="img-fluid d-block mx-auto" width="140" alt="">
                     <p class="text-center font-weight-bold mt-2">Una cuenta</p>
                 </div>
-                <div class="col-md-3">
-                    <a href="" data-toggle="modal" data-target="#exampleModalCenter">
+                <div class="col-6 col-md-3">
+                    <a href="" data-toggle="modal" data-target="#modalServicios">
                         <img src="images/Activos/2.png" class="img-fluid d-block mx-auto" width="140" alt="">
                     </a>
                     <p class="text-center font-weight-bold mt-2">Servicios</p>
                 </div>
-                <div class="col-md-3">
-                    <img src="images/Activos/3.png" class="img-fluid d-block mx-auto" width="140" alt="">
+                <div class="col-6 col-md-3">
+                    <a href="" data-toggle="modal" data-target="#modalDesbloqueos">
+                        <img src="images/Activos/3.png" class="img-fluid d-block mx-auto" width="140" alt="">
+                    </a>
                     <p class="text-center font-weight-bold mt-2">Desbloqueos</p>
                 </div>
             </div>
@@ -189,84 +192,65 @@
     <!-- Activos -->
     <section class="activos my-5 position-relative d-flex flex-column align-items-center" id="activos">
         <div class="container">
-            <!-- <div class="beneficios pb-5" id="beneficios">
-                <div class="what py-5">
-                    <h4 class="text-uppercase pl-5 m-0">¿PORQUE ELEGIR </h4>
-                    <h2 class="text-uppercase m-0">SUMMA PIPS</h2>
-                    <h3 class="text-uppercase pl-5"><span>COMO TU BROKER?</span></h3>
-                </div>
-                <div class="row justify-content-center py-5">
-                    <div class="col-md-3">
-                        <img src="images/Activos/1.png" class="img-fluid d-block mx-auto" width="150" alt="">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/Activos/1.png" class="img-fluid d-block mx-auto" width="150" alt="">
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/Activos/1.png" class="img-fluid d-block mx-auto" width="150" alt="">
-                    </div>
-                </div> -->
-            <!-- 
-                <div class="row px-xl-5 justify-content-around mt-5">
-                    <div class="col-md-3 item">
-                        <img src="images/Activos/Dispositivos.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                        <p class="mb-0">Tenemos las herramientas de trading</p>
-                        <p class="font-weight-bold"> más avanzadas y potentes.</p>
-                    </div>
-                    <div class="col-md-3 item my-4 my-md-0">
-                        <img src="images/Activos/Soporte.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                        <p class="mb-0 font-weight-bold">Soporte las 24 horas.</p>
-                        <p> del día con ejecutivos en tu idioma.</p>
-                    </div>
-                    <div class="col-md-3 item p-0">
-                        <img src="images/Activos/Seguridad.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                        <p class="mb-0 font-weight-bold">Alto estándar de seguridad </p>
-                        <p> con tus movimientos y datos personales.</p>
-                    </div>
-                </div>
-                <div class="row px-xl-5 justify-content-around my-5">
-                    <div class="col-md-3 px-xl-5 item">
-                        <img src="images/Activos/Dinero.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                        <p class="mb-0">Te ofrecemos diferentes</p>
-                        <p class="font-weight-bold"> sistemas de pago.</p>
-                    </div>
-                    <div class="col-md-3 px-xl-5 item my-4 my-md-0">
-                        <img src="images/Activos/Dinero.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                        <p class="mb-0">Tú decides cuando</p>
-                        <p class="font-weight-bold"> retirar tu dinero.</p>
-                    </div>
-                </div>
-            </div> -->
             <h4 class="text-uppercase pl-5 mb-0 mt-5">NUESTRA FORMA DE INVERTIR OFRECIENDO LOS</h4>
             <h2 class="text-uppercase m-0">activos de inversión</h2>
             <h3 class="text-uppercase pl-5">con mayor utilidad <span>para que comiences ahora.</span></h3>
             <p class="col-md-10 mx-auto my-5 px-0"> Escoge entre más de 250 activos disponibles de diferentes sectores como: Industria, tecnología, farmacéutica, metales, energía, etc.</p>
-            <div class="row justify-content-center py-5">
-                <div class="col-md-6 col-lg-3 px-4">
-                    <img src="images/Activos/Tarjeta-1.png" class="img-fluid" alt="">
-                    <div class="position-absolute">
-                        <h4 class="text-center">EUR / USD</h4>
-                        <p class="text-center num">1.111980 <span>-0.2%</span></p>
-                        <p class="text-uppercase text-center rendimiento">32 % de Rendimiento</p>
-                        <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+            <div class="px-5">
+                <div class="owl-carousel owl-theme px-lg-5">
+                    <div class="item px-3">
+                        <img src="images/Activos/Tarjeta-1.png" class="img-fluid" alt="">
+                        <div class="position-absolute">
+                            <h4 class="text-center">EUR / USD</h4>
+                            <p class="text-center num">1.111980 <span>-0.2%</span></p>
+                            <p class="text-uppercase text-center rendimiento">32 % de Rendimiento</p>
+                            <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3 px-4 my-4 my-md-0">
-                    <img src="images/Activos/Tarjeta-2.png" class="img-fluid" alt="">
-                    <div class="position-absolute">
-                        <h4 class="text-center">BITCOIN</h4>
-                        <p class="text-center num">8,073.46</p>
-                        <p class="text-uppercase text-center rendimiento">82 % de Rendimiento</p>
-                        <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                    <div class="item px-3">
+                        <img src="images/Activos/Tarjeta-2.png" class="img-fluid" alt="">
+                        <div class="position-absolute">
+                            <h4 class="text-center">BITCOIN</h4>
+                            <p class="text-center num">8,073.46</p>
+                            <p class="text-uppercase text-center rendimiento">82 % de Rendimiento</p>
+                            <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-3 px-4 mt-md-4 mt-lg-0">
-                    <img src="images/Activos/Tarjeta-3.png" class="img-fluid" alt="">
-                    <div class="position-absolute">
-                        <h4 class="text-center">ORO</h4>
-                        <p class="text-center num">1,559.4</p>
-                        <p class="text-uppercase text-center rendimiento">44 % de Rendimiento</p>
-                        <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                    <div class="item px-3">
+                        <img src="images/Activos/Tarjeta-3.png" class="img-fluid" alt="">
+                        <div class="position-absolute">
+                            <h4 class="text-center">ORO</h4>
+                            <p class="text-center num">1,559.4</p>
+                            <p class="text-uppercase text-center rendimiento">44 % de Rendimiento</p>
+                            <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="item px-3">
+                        <img src="images/Activos/Apple.png" class="img-fluid" alt="">
+                        <div class="position-absolute">
+                            <h4 class="text-center">APPLE</h4>
+                            <p class="text-center num">128.1</p>
+                            <p class="text-uppercase text-center rendimiento">52 % de Rendimiento</p>
+                            <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="item px-3">
+                        <img src="images/Activos/Petroleo.png" class="img-fluid" alt="">
+                        <div class="position-absolute">
+                            <h4 class="text-center">CRUDE OIL</h4>
+                            <p class="text-center num">53.01</p>
+                            <p class="text-uppercase text-center rendimiento">20 % de Rendimiento</p>
+                            <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="item px-3">
+                        <img src="images/Activos/Usd.png" class="img-fluid" alt="">
+                        <div class="position-absolute">
+                            <h4 class="text-center">USD / JPY</h4>
+                            <p class="text-center num">109.0245</p>
+                            <p class="text-uppercase text-center rendimiento">10 % de Rendimiento</p>
+                            <a href="">SABER MAS <i class="fas fa-chevron-right ml-2"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -344,7 +328,7 @@
                 <h3 class="text-uppercase pl-5"><span>TESTIMONIALES</span></h3>
             </div>
             <div class="row justify-content-center pb-5">
-                <div class="col-md-3 testimonial bg-white p-0">
+                <div class="col-md-6 col-lg-3 testimonial bg-white p-0 order-1 order-lg-0">
                     <img src="images/Testimoniales/1.png" class="img-fluid" alt="">
                     <p class="px-3 mt-2 mb-0 mt-3">Roberto Madrigal</p>
                     <p class="px-3 ">Ingeniero </p>
@@ -360,12 +344,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 order-3 order-lg-0 mt-3 mt-lg-0 px-0 px-lg-3">
                     <div class="row testimonial mb-3">
-                        <div class="col-6 pr-0">
+                        <div class="col-md-6 pl-0 pl-lg-3 pr-0">
                             <img src="images/Testimoniales/2.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col-md-6 bg-white">
+                        <div class="col-md-6 bg-white d-flex flex-column justify-content-center justify-content-xl-start">
                             <p class="mt-2 mb-0 mt-4">Alicia Torres</p>
                             <p>Consultora </p>
                             <p class="text-center">Noticias frescas para comenzar a invertir.</p>
@@ -382,10 +366,10 @@
                         </div>
                     </div>
                     <div class="row testimonial">
-                        <div class="col-6 pr-0">
+                        <div class="col-md-6 pl-0 pl-lg-3 pr-0">
                             <img src="images/Testimoniales/3.png" class="img-fluid" alt="">
                         </div>
-                        <div class="col-md-6 bg-white">
+                        <div class="col-md-6 bg-white d-flex flex-column justify-content-center justify-content-xl-start">
                             <p class="mt-2 mb-0 mt-4">Carmen García</p>
                             <p>Contadora </p>
                             <p class="text-center">Nuestra inversionista del mes</p>
@@ -402,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 testimonial bg-white p-0">
+                <div class="col-md-6 col-lg-3 testimonial bg-white p-0 order-2 order-lg-0 mt-3 mt-md-0">
                     <img src="images/Testimoniales/4.png" class="img-fluid" alt="">
                     <p class="mt-2 mb-0 mt-3">Matias Méndez</p>
                     <p>Abogado </p>
@@ -474,13 +458,34 @@
                                     <img src="images/Pagos/Bancomer.png" class="img-fluid mt-4 mt-md-0" width="" alt="">
                                     <img src="images/Pagos/Banamex.png" class="img-fluid mt-4 mt-md-0" width="" alt="">
                                     <img src="images/Pagos/Banorte.png" class="img-fluid mt-4 mt-md-0" width="" alt="">
-                                    <img src="images/pagos/Oxxo.png" class="img-fluid" width="" alt="">
+                                    <img src="images/Pagos/Oxxo.png" class="img-fluid" width="" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <hr class="d-none">
+                </div>
+            </div>
+            <div class="seguridad">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center align-items-center py-3 order-1 order-md-0">
+                        <h4 class="text-center">BANCO CUSTODIO</h4>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center py-3 order-3 order-md-0">
+                        <h4 class="text-center">LICENCIA</h4>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center py-3 order-5 order-md-0">
+                        <h4 class="text-center">SEGURIDAD</h4>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center border-right border-top py-3 order-2 order-md-0">
+                        <img src="images/Pagos/HSBC.png" class="img-fluid" width="200" alt="">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center border-right border-top py-3 order-4 order-md-0">
+                        <p class="text-white mb-0">109405-JASFHASHBC</p>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-items-center border-top py-3 order-6 order-md-0">
+                        <img src="images/Pagos/TradingView.png" class="img-fluid" width="100" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -492,7 +497,7 @@
             <h2 class="m-0 pl-2">SUMMA</h2>
             <h4 class="pl-5">PLUS</h4>
             <div class="row my-5 content">
-                <div class="col-md-3">
+                <div class="col-lg-3 px-0 px-lg-3">
                     <div class="promociones px-4 py-5 mb-4 bg-white">
                         <h5>PROMOCIONES</h5>
                         <p class="my-4">Realiza dos operaciones y te protegemos 3</p>
@@ -504,7 +509,7 @@
                         <a href="" class="text-white mt-4 d-block text-right">___ MÁS INFO</a>
                     </div>
                 </div>
-                <div class="col-md-3 noticias px-4 bg-white pt-5 pb-1">
+                <div class="col-lg-3 noticias px-4 bg-white pt-5 pb-1 mt-3 mt-lg-0">
                     <h5>TOP NES</h5>
                     <div class="noticia mt-4">
                         <p>EL NUEVO FORMATO DE NETFLIX DISPARA LAS ACCIONES EN TECNOLOGÍA</p>
@@ -519,7 +524,7 @@
                         <p class="fecha"> <i class="far fa-clock mr-2"></i>3 Dias</p>
                     </div>
                 </div>
-                <div class="col-lg-6 herramientas pl-4 pr-0">
+                <div class="col-lg-6 herramientas px-0 pl-lg-4 pr-0">
                     <div class="bg-white h-100 px-4 py-5">
                         <h4>HERRAMIENTAS DE INVERSIÓN</h4>
                         <div class="herramienta mt-4 pt-4">
@@ -615,43 +620,73 @@
     </footer>
 
     <!-- Modal Activos -->
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary">
-        Launch demo modal
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="modalServicios" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div class="row px-xl-5 justify-content-around mt-5">
-                        <div class="col-md-3 item">
+                    <div class="row justify-content-around mt-5">
+                        <div class="col-md-3 item px-0">
                             <img src="images/Activos/Dispositivos.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                            <p class="mb-0">Tenemos las herramientas de trading</p>
-                            <p class="font-weight-bold"> más avanzadas y potentes.</p>
+                            <p class="mb-0 text-center px-lg-0">Tenemos las herramientas de trading</p>
+                            <p class="font-weight-bold text-center"> más avanzadas y potentes.</p>
                         </div>
                         <div class="col-md-3 item my-4 my-md-0">
                             <img src="images/Activos/Soporte.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                            <p class="mb-0 font-weight-bold">Soporte las 24 horas.</p>
-                            <p> del día con ejecutivos en tu idioma.</p>
+                            <p class="mb-0 font-weight-bold text-center">Soporte las 24 horas.</p>
+                            <p class="text-center"> del día con ejecutivos en tu idioma.</p>
                         </div>
                         <div class="col-md-3 item p-0">
                             <img src="images/Activos/Seguridad.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                            <p class="mb-0 font-weight-bold">Alto estándar de seguridad </p>
-                            <p> con tus movimientos y datos personales.</p>
+                            <p class="mb-0 font-weight-bold text-center">Alto estándar de seguridad </p>
+                            <p class="text-center"> con tus movimientos y datos personales.</p>
                         </div>
                     </div>
                     <div class="row px-xl-5 justify-content-around my-5">
-                        <div class="col-md-3 px-xl-5 item">
+                        <div class="col-md-3 item">
                             <img src="images/Activos/Dinero.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                            <p class="mb-0">Te ofrecemos diferentes</p>
-                            <p class="font-weight-bold"> sistemas de pago.</p>
+                            <p class="mb-0 text-center">Te ofrecemos diferentes</p>
+                            <p class="font-weight-bold text-center"> sistemas de pago.</p>
                         </div>
-                        <div class="col-md-3 px-xl-5 item my-4 my-md-0">
+                        <div class="col-md-3 item my-4 my-md-0">
                             <img src="images/Activos/Dinero.png" class="icon img-fluid mx-auto d-block mb-3" alt="">
-                            <p class="mb-0">Tú decides cuando</p>
-                            <p class="font-weight-bold"> retirar tu dinero.</p>
+                            <p class="mb-0 text-center">Tú decides cuando</p>
+                            <p class="font-weight-bold text-center"> retirar tu dinero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Desbloqueos -->
+    <div class="modal fade" id="modalDesbloqueos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body py-5">
+                    <div class="row justify-content-around">
+                        <div class="col-md-6 col-xl-3 item px-0 d-flex flex-column justify-content-center align-items-center text-center">
+                            <p class="font-weight-bold mb-0 text-center px-lg-0">Summa Pips </p>
+                            <p class="font-weight-bold text-center"> +Plus</p>
+                            <p>Más de $9,000.0001</p>
+                            <p>0.10%</p>
+                        </div>
+                        <div class="col-md-6 col-xl-3 item my-4 my-md-0 d-flex flex-column justify-content-center align-items-center text-center">
+                            <p class="mb-0 font-weight-bold text-center">Summa Pips</p>
+                            <p class="text-center font-weight-bold"> Golden Élite</p>
+                            <p>$5,000,001 a $9,000,000</p>
+                            <p>0.125%</p>
+                        </div>
+                        <div class="col-md-6 col-xl-3 item p-0 d-flex flex-column justify-content-center align-items-center text-center mt-4 mt-xl-0">
+                            <p class="mb-0 font-weight-bold text-center">Summa Pips </p>
+                            <p class="text-center font-weight-bold"> Silver plus</p>
+                            <p>$3,000,0001 a $5,000,000</p>
+                            <p>0.15%</p>
+                        </div>
+                        <div class="col-md-6 col-xl-3 item d-flex flex-column justify-content-center align-items-center text-center mt-4 mt-xl-0">
+                            <p class="mb-0 text-center font-weight-bold">Summa Pips </p>
+                            <p class="font-weight-bold text-center"> trader</p>
+                            <p>Menos de $3000,000</p>
+                            <p>0.25%</p>
                         </div>
                     </div>
                 </div>
@@ -662,17 +697,12 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.0/scrollreveal.min.js'></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-
-
+    <script src="js/owl.carousel.min.js"></script>
 
 </body>
 

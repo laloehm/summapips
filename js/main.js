@@ -40,6 +40,27 @@
         })
     }());
 
+    $(document).ready(function () {
+
+        // $(".owl-carousel").owlCarousel();
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+
+                768: {
+                    items: 2
+                },
+                1200: {
+                    items: 3
+                }
+            }
+        });
+    });
 
     // ScrollReveal().reveal('.left', {
     //     distance: '100px',

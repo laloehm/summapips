@@ -308,7 +308,7 @@ header .redes .fas {
     text-align: center;
 }
 
-.activos .col-lg-3 img {
+.activos .item img {
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -316,7 +316,7 @@ header .redes .fas {
     -o-border-radius: 30px;
 }
 
-.activos .col-lg-3 .position-absolute {
+.activos .item .position-absolute {
     position: absolute;
     bottom: 10%;
     left: 0;
@@ -324,18 +324,18 @@ header .redes .fas {
     color: #a6a7a7;
 }
 
-.activos .col-lg-3 .position-absolute a {
+.activos .item .position-absolute a {
     text-align: center;
     display: block;
     color: #6e6e6e;
     font-size: .7rem;
 }
 
-.activos .col-lg-3 .position-absolute .num {
+.activos .item .position-absolute .num {
     font-size: .8rem;
 }
 
-.activos .col-lg-3 .position-absolute p.rendimiento {
+.activos .item .position-absolute p.rendimiento {
     width: 75%;
     margin: 0 auto 1rem;
     border: 1px solid;
@@ -345,11 +345,45 @@ header .redes .fas {
     font-size: .9rem;
 }
 
-.activos .col-lg-3 .position-absolute i {
+.activos .item .position-absolute i {
     color: #e22866;
 }
 
-.what h3 span,
+.activos .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.activos .owl-carousel .owl-nav button.owl-prev,
+.activos .owl-carousel .owl-nav button.owl-next {
+    background: #e22866;
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: #666666 !important;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.owl-carousel button.owl-dot.active {
+    background: #e22866 !important;
+}
+
 .what h4 {
     font-size: 1.8rem;
 }
@@ -404,6 +438,21 @@ img.icon {
     padding: .5rem 1rem;
     text-align: center;
     bottom: 40px;
+}
+
+#modalServicios .modal-dialog,
+#modalDesbloqueos .modal-dialog {
+    max-width: 900px;
+}
+
+#modalDesbloqueos .item {
+    border: 1px solid #e22866;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+#modalDesbloqueos .item p:nth-child(4) {
+    color: #e22866;
 }
 
 /* Plataformas */
@@ -468,6 +517,28 @@ img.icon {
 
 #carouselPagos img {
     width: 20%;
+}
+
+.metodos .seguridad h4 {
+    margin: 0;
+    color: #979797;
+}
+
+.metodos .seguridad {
+    border: 1px solid #ec135b;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.seguridad .border-top {
+    border-top: 1px solid #ec135b !important;
+}
+
+.seguridad .border-right {
+    border-right: 1px solid #ec135b !important;
 }
 
 /* Summa Elite */
@@ -1053,6 +1124,16 @@ footer .redes div {
         padding: 0;
     }
 
+    #modalDesbloqueos .item {
+        max-width: 23% !important;
+    }
+
+}
+
+@media (min-width:768px) {
+    #modalDesbloqueos .item {
+        max-width: 48% !important;
+    }
 }
 
 @media (min-width:1280px) {
@@ -1097,6 +1178,15 @@ footer .redes div {
         display: flex;
         height: 100vh;
     }
+
+    .suma-plus .content {
+        height: auto;
+    }
+
+    .testimoniales .testimonial .border-top {
+        position: relative !important;
+        display: none;
+    }
 }
 
 @media (max-width:992px) {
@@ -1109,6 +1199,14 @@ footer .redes div {
     .home h1 {
         font-size: 3rem;
         line-height: 50px;
+    }
+
+    .home .slide-3 .col-lg-6 h2 {
+        font-size: 3rem;
+    }
+
+    .home .slide-3 .col-lg-6 h3 {
+        font-size: 2.2rem;
     }
 
     .home .logo {
