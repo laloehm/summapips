@@ -256,7 +256,9 @@ header .redes .fas {
     font-size: 1.3rem;
 }
 
-.activos h2 {
+.activos h2,
+.beneficios h2,
+.testimoniales h2 {
     color: #ec135b;
     font-size: 3rem;
     line-height: 50px;
@@ -266,7 +268,9 @@ header .redes .fas {
     color: #ec135b;
 }
 
-.activos h3 span {
+.activos h3 span,
+.beneficios h3 span,
+.testimoniales h3 span {
     font-size: 1.1rem;
     color: #a6a7a7;
     font-family: 'Arturito';
@@ -348,9 +352,21 @@ img.icon {
     font-size: .95rem;
 }
 
+.beneficios p {
+    color: #686666;
+}
+
+.beneficios .nubes {
+    position: absolute;
+    right: 0;
+    width: 220px;
+    top: 10%;
+}
+
 .activos a.btn-crear,
 .plataformas a.btn-crear,
-.invertir a.btn-crear {
+.invertir a.btn-crear,
+.beneficios a.btn-crear {
     background: #ec135b;
     border-radius: 30px;
     color: #fff;
@@ -507,8 +523,84 @@ img.icon {
     padding: 2rem 0;
 }
 
+/* Testimoniales */
+.testimoniales {
+    background-image: url(../images/Testimoniales/Bg-Testimoniales.jpg);
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.testimoniales .testimonial p {
+    text-align: center;
+}
+
+.testimoniales .testimonial p:nth-of-type(1) {
+    font-size: 1.3rem;
+    color: #3c3d48;
+}
+
+.testimoniales .testimonial p:nth-of-type(2) {
+    color: #cdcdd0;
+    font-style: italic;
+}
+
+.testimoniales .testimonial p:nth-of-type(3) {
+    color: #5b5d69;
+    letter-spacing: 1px;
+}
+
+.testimoniales .testimonial .comentarios p:nth-of-type(1),
+.testimoniales .testimonial .operaciones p:nth-of-type(1) {
+    color: #cdcdd0 !important;
+    font-size: .7rem !important;
+    margin-bottom: 0;
+}
+
+.testimoniales .testimonial .border-top {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.testimoniales .testimonial .comentarios p:nth-of-type(2),
+.testimoniales .testimonial .operaciones p:nth-of-type(2) {
+    color: #5b5d69 !important;
+    font-size: .7rem !important;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+/* Summa Plus */
+
+.suma-plus .herramientas a {
+    display: block;
+    border: 1px solid #3c3d3c;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    color: #000;
+}
+
+.suma-plus .herramientas a:hover {
+    border: none;
+    color: #fff;
+    background: #f85048;
+    text-decoration: none;
+}
+
+.suma-plus .noticias .noticia {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.suma-plus .noticias p {
+    color: #62636b;
+}
 
 /* NEWS */
+
+
 .news {
     position: relative;
     background: #f2f2f2;
